@@ -19,6 +19,7 @@ Random tiem = new Random();
 int i=0;
 int tiempo=0;
 int c=0;
+
 @Override
 public void run(){
 while(activo==true){

@@ -19,7 +19,8 @@ public class Imagen1 extends Thread{
     int i=0;
     int tiempo=0;
     int c=0;
-    @Override
+    
+@Override
 public void run(){
     while(activo==true){
         i=img.nextInt(4);
