@@ -90,7 +90,7 @@ public class Interfaz extends javax.swing.JFrame {
             hilo3.activo=false;
                 if(hilo1.c==hilo2.c){
                     if(hilo2.c==hilo3.c){
-                        JOptionPane.showMessageDialog(Interfaz.this," Ganador ! ! ! ");
+                        JOptionPane.showMessageDialog(Interfaz.this," ¡HAS GANADO!");
                 }
             }
         }
@@ -131,11 +131,11 @@ public class Interfaz extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 1145, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGap(0, 485, Short.MAX_VALUE)
         );
 
         pack();
